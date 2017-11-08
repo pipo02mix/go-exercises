@@ -13,5 +13,5 @@ jobs:
       - checkout
       - run: cd gigasecond
       - run: go get -v -t -d ./...
-      - run: go test
+      - run: go test -v ./...
 
